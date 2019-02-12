@@ -1,0 +1,87 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" href="../css/table.css" type="text/css">
+</head>
+<body>
+<table align="center" border="2" class="for_table">
+    <caption align="top">
+        страны участники Первой Мировой войны.
+    </caption>
+    <tfoot class="text_blue">
+    <tr>
+        <td colspan="5" >Год окончания войны -1918</td>
+    </tr>
+    </tfoot>
+    <tbody>
+    <tr>
+        <th width="140px">Год:</th>
+        <th width="260px">Антанта</th>
+        <th width="260px">Госуларства изменившие блок</th>
+        <th width="260px">Централные государства</th>
+        <th width="260px">Нейтральные государства</th>
+    </tr>
+    <tr class="text_center">
+        <td rowspan="7">1914</td>
+        <td>Великобритания</td>
+        <td rowspan="7"></td>
+        <td>Германия</td>
+        <td class="text_left">Швеция</td>
+    </tr>
+    <tr class="text_center">
+        <td>Франция</td>
+        <td>Австро-Венгрия</td>
+        <td class="text_left">Швейцария</td>
+    </tr>
+    <tr class="text_center">
+        <td>Россия</td>
+        <td rowspan="5">Турция</td>
+        <td class="text_left">Дания</td>
+    </tr>
+    <tr>
+        <td class="text_center">Бельгия</td>
+        <td class="text_left">Нидерланды</td>
+    </tr>
+    <tr >
+        <td class="text_center">Сербия</td>
+        <td class="text_left">Испания</td>
+    </tr>
+    <tr>
+        <td class="text_center">Япония</td>
+        <td class="text_left">Аргентина</td>
+    </tr>
+    <tr>
+        <td class="text_center">Черногория</td>
+        <td class="text_left">Парагвай</td>
+    </tr>
+    <tr class="text_center">
+        <td>1915</td>
+        <td colspan="2" class="text_green">Италия</td>
+        <td rowspan="5">Болгария</td>
+        <td class="text_left">Норвегия</td>
+    </tr>
+    <tr class="text_center">
+        <td rowspan="2">1916</td>
+        <td >Румыния</td>
+        <td rowspan="4"></td>
+        <td class="text_left">Албания</td>
+    </tr>
+    <tr class="text_center">
+        <td >Португалия</td>
+        <td class="text_left">Лихтенштейн</td>
+    </tr>
+    <tr class="text_center">
+        <td rowspan="2">1917</td>
+        <td >США</td>
+        <td class="text_left">Люксембург</td>
+    </tr>
+    <tr class="text_center">
+        <td>Греция</td>
+        <td class="text_left">Мексика</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
